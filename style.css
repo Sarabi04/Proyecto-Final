@@ -1,0 +1,140 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #f8f9fa;
+    }
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid #e9ecef;
+    padding: 0 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+    }
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+    }
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    text-decoration: none;
+    }
+
+.logo-icon {
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 8px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    }
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+    }
+
+.nav-links a {
+    text-decoration: none;
+    color: #495057;
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+    }
+
+.nav-links a:hover {
+    color: #667eea;
+    }
+
+.cta-section {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    }
+
+.attention-text {
+    color: #6c757d;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    }
+
+.cta-button {
+    background-color: #495057;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    }
+
+.cta-button:hover {
+    background-color: #343a40;
+    transform: translateY(-1px);
+    }
+
+.cart-icon {
+    width: 18px;
+    height: 18px;
+    }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar {
+            padding: 0 1rem;
+            }
+
+            .nav-links {
+                gap: 1rem;
+            }
+
+            .nav-links a {
+                font-size: 0.9rem;
+            }
+
+            .attention-text {
+                display: none;
+            }
+
+            .cta-button {
+                padding: 0.6rem 1.2rem;
+                font-size: 0.85rem;
+            }
+        }
+
+@media (max-width: 576px) {
+
+    .nav-links {
+        display: none;
+    }
+            
+    .navbar-container {
+        justify-content: space-between;
+        }
+    }
