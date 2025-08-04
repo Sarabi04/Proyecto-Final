@@ -40,7 +40,9 @@ body{
 }
 
 .contenedor-padre {
-  background-image: url(ingenieros.webp); /*IMPORTANTE: CAMBIAR LA IMAGEN POR UNA QUE SE DISTINGA MEJOR Y SEA MAS ADECUADA PARA EL CONTENEDOR */
+  background-image: url(ingenieros.webp);
+  background-repeat:no-repeat;
+  background-size: cover; /*IMPORTANTE: CAMBIAR LA IMAGEN POR UNA QUE SE DISTINGA MEJOR Y SEA MAS ADECUADA PARA EL CONTENEDOR */
 }
 
 .title-section {
