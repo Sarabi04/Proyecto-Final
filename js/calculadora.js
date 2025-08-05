@@ -27,9 +27,10 @@
             const totalCapacity = solar + wind + hydro + geothermal + biomass + other;
 
             // Calcular producción mensual por fuente (kW * factor * # horas * 30 días)
-            const hoursPerMonth = 8 * 30; // horas por mes
+            const solarhoursPerMonth = 8 /1000 * 30;
+            const hoursPerMonth = 8 /1000 * 30; // horas por mes
             
-            const solarProduction = solar * solarFactor * hoursPerMonth;
+            const solarProduction = solar * solarFactor * solarhoursPerMonth;
             const windProduction = wind * windFactor * hoursPerMonth;
             const hydroProduction = hydro * hydroFactor * hoursPerMonth;
             const geothermalProduction = geothermal * geothermalFactor * hoursPerMonth;
