@@ -40,7 +40,7 @@ body{
 }
 
 .contenedor-padre {
-    background-image: url(imagenes/ingenieros.webp);
+    background-image: url(/img/ingenieros.webp);
     border-radius: 10px;
     background-repeat:no-repeat;
     background-size: cover; /*IMPORTANTE: CAMBIAR LA IMAGEN POR UNA QUE SE DISTINGA MEJOR Y SEA MAS ADECUADA PARA EL CONTENEDOR */

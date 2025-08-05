@@ -211,7 +211,7 @@ padding: 20px;
 .bd-placeholder-img-bia {
     font-size: 1.125rem;
     text-anchor: middle;
-    background-image: url(imagenes/biaenergy.webp);
+    background-image: url(/img/biaenergy.webp);
     background-repeat:no-repeat;
     background-size: cover;
     -webkit-user-select: none;
@@ -222,7 +222,7 @@ padding: 20px;
 .bd-placeholder-img-enel {
     font-size: 1.125rem;
     text-anchor: middle;
-    background-image: url(imagenes/enel.png);
+    background-image: url(/img/enel.png);
     background-repeat:no-repeat;
     background-size: contain;
     -webkit-user-select: none;
@@ -233,7 +233,7 @@ padding: 20px;
 .bd-placeholder-img-aes {
     font-size: 1.125rem;
     text-anchor: middle;
-    background-image: url(imagenes/aes.avif);
+    background-image: url(/img/aes.avif);
     background-repeat:no-repeat;
     background-size: contain;
     -webkit-user-select: none;
@@ -244,7 +244,7 @@ padding: 20px;
 .bd-placeholder-img-celcia {
     font-size: 1.125rem;
     text-anchor: middle;
-    background-image: url(imagenes/celsia.webp);
+    background-image: url(/img/celsia.webp);
     background-size: contain;
     background-repeat:no-repeat;
     -webkit-user-select: none;
@@ -255,7 +255,7 @@ padding: 20px;
 .bd-placeholder-img-auto {
     font-size: 1.125rem;
     text-anchor: middle;
-    background-image: url(imagenes/auto.webp);
+    background-image: url(/img/auto.webp);
     background-size: contain;
     background-repeat:no-repeat;
     -webkit-user-select: none;
