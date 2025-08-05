@@ -1,7 +1,7 @@
       .bd-placeholder-img-x {
         font-size: 1.125rem;
         text-anchor: middle;
-        background-image: url(bosque.jpg);
+        background-image: url(imagenes/bosque.jpg);
         background-repeat:no-repeat;
         background-size:cover;
         -webkit-user-select: none;
@@ -12,7 +12,7 @@
 .bd-placeholder-img-y {
         font-size: 1.125rem;
         text-anchor: middle;
-        background-image: url(solar.jpg);
+        background-image: url(imagenes/solar.jpg);
         background-repeat:no-repeat;
         background-size:cover;
         -webkit-user-select: none;
@@ -23,7 +23,7 @@
 .bd-placeholder-img-z {
         font-size: 1.125rem;
         text-anchor: middle;
-        background-image: url(conectados.webp);
+        background-image: url(imagenes/conectados.webp);
         background-repeat:no-repeat;
         background-size:cover;
         -webkit-user-select: none;
