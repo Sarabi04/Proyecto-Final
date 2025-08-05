@@ -419,8 +419,8 @@
             // Calcular capacidad total instalada
             const totalCapacity = solar + wind + hydro + geothermal + biomass + other;
 
-            // Calcular producción mensual por fuente (kW * factor * 24 horas * 30 días)
-            const hoursPerMonth = 24 * 30; // 720 horas por mes
+            // Calcular producción mensual por fuente (kW * factor * # horas * 30 días)
+            const hoursPerMonth = 8 * 30; // horas por mes
             
             const solarProduction = solar * solarFactor * hoursPerMonth;
             const windProduction = wind * windFactor * hoursPerMonth;
